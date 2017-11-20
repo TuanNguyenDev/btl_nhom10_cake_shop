@@ -1,0 +1,265 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body, div, header, footer{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+body{
+	background-color: #AAACA7;
+}
+.navigation-bar{
+	display: -webkit-inline-box;
+	position: fixed;
+	position: relative;
+	top: 0;
+	padding: 0 15px;
+	z-index: 30;
+	width: 100%;
+	max-height: 100%;
+	background: #222;
+	min-height: 50px;
+}
+.search-bar, .navigation-bar-title, .navigation-bar-menu{
+	width: 30%;
+}
+.search-bar{
+    position: relative;
+    top: 8px;
+
+}
+.search-bar input{
+	width: 80%;
+    font-size: 12px;
+    height: 45px;
+    line-height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid;
+    padding: 0 20px;
+    position: absolute;
+}
+.search-bar button{
+	position: absolute;
+    background: #fff;
+    border: none;
+    right: 99px;
+    top: 7px;
+    border-radius: 14px;
+}
+.navigation-bar-title{
+	text-align: center;
+}
+.navigation-bar-menu ul{
+	list-style-type: none;
+    display: -webkit-box;
+    margin-top: 18px;
+}
+.navigation-bar-menu ul li{
+	color: white;
+	width: 25%;
+	text-align: right;
+}
+.login-box{
+	max-width: 560px;
+    margin: 40px auto;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    background: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.login-bar{
+	font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+.login-bar a{
+	padding:  0 10px;
+	text-decoration: none;
+}
+.login-form{
+	padding-left: -15px;
+	padding-right: -15px;
+	padding:  40px;
+}
+.login-form form{
+	display: table-caption;
+}
+.email, .password, .send{
+	width: 448.4px;
+
+}
+.email1{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 20px;
+	font-size: 14px;
+    font-family: Poppins;
+    color: #333;
+    line-height: 1.5;
+}
+.login-form  input{
+	width: 100%;
+	border-radius: 3px;
+    border: 1px solid #252323;
+    height: 40px;
+}
+.login-form form div{
+	margin-bottom: 30px;
+}
+.send button
+{
+	border-radius: 3px;
+    border: 1px solid #252323;
+	width: 100%;
+	height: 40px;
+	margin-top: 30px;
+    background: #2275d7;
+    font-size: 20px;
+    color: white;
+}
+.user-info-top img{
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+.user-info-top{
+	margin:  40px 120px;
+	display: flex;
+}
+.user-info-top-in{
+	width: 100%;
+	height: 100px;
+	display: flex;
+}
+.user-info-top-in-left{
+	width: 75%;
+}
+.user-info-top-in-right{
+	width: 25%;
+}
+.user-info-top-in-right h2:hover{
+	color: limegreen;
+}
+.user-info-bottom{
+	padding: 40px 100px;
+    text-align: center;
+}
+.user-info-bottom input{
+	    padding-left: 535px;
+}
+.footer{
+	background: #333;
+}
+.footer-information{
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 1280px;
+    max-width: 100%;
+    display: -webkit-box;
+}
+.footer-information div{
+	width: 20%;
+	padding:  20px 0;
+}
+.services, .more, .photos, .other,.contact{
+	color: white;
+}
+.services, .more, .photos, .other,.contact ul li{
+	line-height: 25px;
+}
+.services, .more, .photos, .other,.contact ul li a{
+	color: white !important;
+}
+.contact{
+	display: flex;
+}
+.contact ul{
+	display: -webkit-inline-box;
+}
+.contact p{
+	display: inline-table;
+}
+.contact ul li{
+	padding:  0 20px;
+}
+.form-info{
+	display: -webkit-box;
+	margin: 40px 100px;
+}
+.info{
+	width:40%;
+}
+.info img{
+	width: 100px;
+	display: -webkit-box;
+}
+.change-info{
+	width: 60%;
+}
+.change{
+	margin-bottom: 10px;
+}
+.change input{
+	width: 40%;
+}
+.save button{
+	width: 67px;
+	background: #E2512A;
+}
+@media screen and (max-width: 769px) {
+    .other, .photos {
+        display: none;
+    }
+
+    .contact ul {
+        display: block;
+    }
+
+    .navigation-bar-menu {
+        display: none;
+    }
+
+    .search-bar, .navigation-bar-title {
+        width: 50%;
+    }
+
+    .search-bar button {
+            top: 10%;
+            right: 25%;
+     }
+
+    .navigation-bar-title {
+        text-align: right;
+    }
+
+    .login-box {
+        width: 100%;
+    }
+    .login-form{
+        width:100%;
+    }
+    .login-form form{
+        width:350px;
+    }
+    .email{
+        width:70%;
+    }
+    .password{
+        width:70%;
+    }
+    .send{
+        width:70%;
+    }
+}
